@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
     name='deepascii',
     version='0.0.1',
-    description='Convert images to ASCII art using deep neural networks',
+    description='Convert images to text art using deep neural networks',
     author='Adam Wentz',
     author_email='adam@adamwentz.com',
     url='https://github.com/awentzonline/deepascii',

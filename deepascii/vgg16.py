@@ -5,8 +5,7 @@
 
 - [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
 
-NOTE: Originally keras.applications.vgg16 but I needed to change things
-to allow for smaller input images.
+NOTE: Originally keras.applications.vgg16 but I needed to change things to allow for smaller input images.
 """
 from __future__ import print_function
 from __future__ import absolute_import
