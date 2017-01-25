@@ -22,35 +22,6 @@ There are a number of options:
 
 Examples
 --------
-![A slash](https://github.com/awentzonline/deepascii/raw/master/examples/images/slash0.jpg)
-```
-        __.._                                                
-     __.wf``\._                                              
-     ~K$     `\._                                            
-      `\v_     `\L_                                          
-        `\v_     `\L_                                        
-          `\._     `\L_                                      
-            `\._     `\L_                                    
-             ``\._     `\x_                                  
-               ``\._     `\x_                                
-                 `~\._     `\x_                              
-                   `\x.      `\x_                            
-                     `\v_      `\x_                          
-                       `\._      `\x_                        
-                         `\._      `\x_                      
-                           `\._      `\x_                    
-                            ``\._      `\x.                  
-                              `~\._      `hx.                
-                                `~x.       `5x._             
-                                  `\x_       ``x._           
-                                    `\v_       ``x._         
-                                      `\._       ``\._       
-                                        `\._       ``\.      
-                                         ``\._     _./`      
-                                           ``\.___a/`        
-                                             `~\e/`          
-                                               ``                                            
-```
 
 ![Steve Buscemi](https://github.com/awentzonline/deepascii/raw/master/examples/images/steveb.png)
 
@@ -357,3 +328,34 @@ wqyg____WdlWKC`__2$S--df$NIL _JZ1_|RlL_`7T_`___Zl.L.._j$kWjmmnwwW7|Wj|D Wjf  |qm
 _j|F--__gg;F___ywwWKCCk gjA__gg+_JxMhx-A4.W..axqj__j_u2|K dT1L_WN|_Wj|___|___JMfK_WJ/__ W7ZC._px4|N|mN|__+N| |M| W44|NTN|U1FujyKK  yr4$Z$LwwN$VWArh u.J|__|N|w W4;W+rhywj1N4|_ _4ykg;_ 4H;N|N..44...__
 _4lK |NqWKZ__yv/K___aYK_.JFw4K4|W/AL__________jjmwUIkWj$________J1_WN|___|uy______g/__._____w______||_________|_____|________4|______________________|N$__________W______|__q|______|___j|__ggygtrj;wy
 ```
+
+![A slash](https://github.com/awentzonline/deepascii/raw/master/examples/images/slash0.jpg)
+```
+        __.._                                                
+     __.wf``\._                                              
+     ~K$     `\._                                            
+      `\v_     `\L_                                          
+        `\v_     `\L_                                        
+          `\._     `\L_                                      
+            `\._     `\L_                                    
+             ``\._     `\x_                                  
+               ``\._     `\x_                                
+                 `~\._     `\x_                              
+                   `\x.      `\x_                            
+                     `\v_      `\x_                          
+                       `\._      `\x_                        
+                         `\._      `\x_                      
+                           `\._      `\x_                    
+                            ``\._      `\x.                  
+                              `~\._      `hx.                
+                                `~x.       `5x._             
+                                  `\x_       ``x._           
+                                    `\v_       ``x._         
+                                      `\._       ``\._       
+                                        `\._       ``\.      
+                                         ``\._     _./`      
+                                           ``\.___a/`        
+                                             `~\e/`          
+                                               ``                                            
+```
+
