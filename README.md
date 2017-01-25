@@ -14,14 +14,17 @@ A monospaced font (DroidSansMono.ttf) is included in the examples directory.
 
 There are a number of options:
 
- * `--font-size` Tweak font size to fit your terminal
- * `--layer` Name of VGG16 layer to take features from
- * `--pool` Integer downscaling factor
- * `--pool-type` Type of pooling (avg or max)
+ * `--font-size=<INT>` Tweak font size to fit your terminal
+ * `--layer=<LAYER_NAME>` Name of VGG16 layer to take features from
+ * `--pool=<INT>` Integer downscaling factor
+ * `--pool-type=<avg|max>` Type of pooling (avg or max)
  * `--invert-color` Invert to assume black text on a white background
 
 Examples
 --------
+All of the following are using the `--invert-color` to correspond with github's
+rendering of this readme file.
+
 
 ![Steve Buscemi](https://github.com/awentzonline/deepascii/raw/master/examples/images/steveb.png)
 
@@ -356,31 +359,75 @@ _4lL`\_qWZZ__.v/____aYK_.JFwxK4$W/AL__________jjmwUI.Wj$L__j_____1_WN|____q_____
 
 ![A slash](https://github.com/awentzonline/deepascii/raw/master/examples/images/slash0.jpg)
 ```
-        __.._                                                
-     __.wf``\._                                              
-     ~K$     `\._                                            
-      `\v_     `\L_                                          
-        `\v_     `\L_                                        
-          `\._     `\L_                                      
-            `\._     `\L_                                    
-             ``\._     `\x_                                  
-               ``\._     `\x_                                
-                 `~\._     `\x_                              
-                   `\x.      `\x_                            
-                     `\v_      `\x_                          
-                       `\._      `\x_                        
-                         `\._      `\x_                      
-                           `\._      `\x_                    
-                            ``\._      `\x.                  
-                              `~\._      `hx.                
-                                `~x.       `5x._             
-                                  `\x_       ``x._           
-                                    `\v_       ``x._         
-                                      `\._       ``\._       
-                                        `\._       ``\.      
-                                         ``\._     _./`      
-                                           ``\.___a/`        
-                                             `~\e/`          
-                                               ``                                            
+````````````````````````````````````````````````````````````T
+kBBBBBBBpp____BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBp___wa-A.__BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBq_w#-`` ``\.__BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBJ4C_      ``\.__BpBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBDW`\x_      ``\.__BpBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBDW`\L_      ``\.__BpBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBD7`\L_      ``\.__BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBB77`\L_      ``\.__BpBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBB77`\._      ``\v__BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBW7`\._      ``\v__BpBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBW7A\._       `\v__BpBBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBDW`Ax__       `\v__BBBBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBDW`\x_        `\v__BBBBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBD7`\L_        `\v__BBBBBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBW7`\L_        `\v__BpBBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBW7`\._        `\v._BBBBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBW7`\._        `\t._BBBBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBW7`\._        `\\._BBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDW7Ax._        `\\._BBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDW`\x_         `~\._BBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDW`\x_         `~\._BpBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBD7`\L_         `~\._BBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB77`\L_         `~j.bBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBW7`\._       _./TPBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBW7`\._  __y/FDBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBW79\._y/PDBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDW``W$DBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBZBBBBBBBBBBBB9
+kBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9
+______________________________________________________________                                       
 ```
 
+with flags `--layer=block1_conv1 --pool=3`
+```
+                                                                                   
+               __                                                                  
+           __pgmm._                                                                
+       ___pgg#$RPbx._                                                              
+        wm#$RBgg##Pbx._                                                            
+        `7Xqgggggg##Pbm._                                                          
+          `5Rqggggggg#8bm._                                                        
+            `5Rqggggggg#8bmL_                                                      
+              `AmqggggggB#8bmL_                                                    
+               `7AmggBgggg##8bmL_                                                  
+                 `7Xmgggggggg#@AmL_                                                
+                   `7Xqgggggggg#@AmL_                                              
+                     `7Xqgg##ggg##@Dmg_                                            
+                       `5XqggBgggg##@Dmg_                                          
+                         `5Rqgggggggg#@Dmg_                                        
+                           `5Rqgggggggg#@Dmg_                                      
+                             7AmqgggggggB#@Dmg_                                    
+                              `7Amggggggg###@Dmg_                                  
+                                `7Xmggggggggg#@Dmg_                                
+                                  `7Xqggggggggg#@Dbg_                              
+                                    `7Xqgggggggg##@Dbg__                           
+                                      `5Xqggggggggg#@Dbg__                         
+                                        `5Rqggggggggg#@Dbg__                       
+                                          `5Kqggggggggg#@Dbg__                     
+                                            7AmBggggggggg#@Dbg__                   
+                                             `7Amgg#gggggg##@Pbg__                 
+                                               `7Xqgggggggggg#@Pbg__               
+                                                 `7Xqgggggggggg#@Pbg__             
+                                                   `7Xqgg#gggggg#B@Pbg__           
+                                                     `5Rqgg#gggggg##@Pbg._         
+                                                       `5Rqggggggggggg@Qbpw        
+                                                         `5mqggggggggg$9PCW        
+                                                          `7Amggg#gg$9PC           
+                                                            `7Xmgg$9PC             
+                                                              `7$VPC               
+                                                                7T                                                                                                  
+```
