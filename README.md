@@ -2,6 +2,23 @@ deepascii
 =========
 Generates ASCII art from images using features extracted from a deep neural net (VGG16)
 
+Install
+-------
+`pip install deepascii`
+
+Usage
+-----
+Basic usage: `make_deepascii.py --font=<FONT_FILENAME> <IMAGE_TO_TRANSFORM>`
+
+A monospaced font (DroidSansMono.ttf) is included in the examples directory.
+
+There are a number of options:
+
+ * `--font-size` Tweak font size to fit your terminal
+ * `--layer` Name of VGG16 layer to take features from
+ * `--pool` Integer downscaling factor
+ * `--pool-type` Type of pooling (avg or max)
+ * `--invert-color` Invert to assume black text on a white background
 
 Examples
 --------
