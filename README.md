@@ -35,7 +35,7 @@ Examples
                                                ``                                            
 ```
 
-![Mona Lisa](https://github.com/awentzonline/deepascii/raw/master/examples/images/monalisa0.jpg)
+![Mona Lisa](https://github.com/awentzonline/deepascii/raw/master/examples/images/monalisa.jpg)
 ```
 ;W C|| ``Y## 3/WY|NYWQTMWW|N  W|X|WM|hbz X|/  Y`01WW#W|X|\VJHJ$W``K`DXT`Wv-  N|L  ywwvw   x   ``$ 4sxdfWfRkk    /```` `` W|   t  WM  Wf|   `        wWW       W ++   W```_y  yww-wwv/Awvmwwwm  gWmmdsK
 KK jtp  W4KCWY|R4Wd1h+q_|_._..U u..d$E;#.4Xk uxwx4UJ##/AVkH/F7l5. ~z;Q\Y#X$  d|K V/PP$E  zf; tiwze#xqyWVPA~Y~~~d  _.z;  ~j|hy `  jj   `| ``_    z:~_~$$+---@3|P `` 2@++  s- Wf#`PPHY W2PF~W/A\WdvrKy9
