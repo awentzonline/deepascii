@@ -55,6 +55,58 @@ Examples
 ![Steve Buscemi](https://github.com/awentzonline/deepascii/raw/master/examples/images/steveb.png)
 
 ```
+                 _/1__wdPP1N 1 NN T  M 1T17 wKW_VNT __mNTTT _$WN$F$____            
+             _/ y1_4_____wwmw    T  1 d  $Wf _y$M _ __4F __mF_  ___MNNNme_         
+              _|$4P___Z$NNm 1     d|  4    $_MNF dFW$ _/Wf _fF_4NP _mmm_ Nk_       
+              4$F_WP______     \   \        4    $ TF $WT M$M 4$   4_  N_ N$L      
+            _|$_4__w4MPTNN            m           $  1   4    T1W1 11__ __ $$L     
+           _ $L_J _J _mRNF             +                              $__$_ $NL    
+           1 $mF JT __ _k `                                4   /       1NN1__$NL   
+          |_ _pF___wP_/`_K                                               mmL_NN$L  
+           |_f dK_$MWRkWP                                                $m_ |_V$L 
+           $  4__N _F_y                                                   $1  $_4L 
+         | $___4P dFWNN                                                   $L h_$N4L
+         | _ 14__P__uK _                                                  T   T$__\
+        _| |14 1__A1 _N      y                                            4  __ |Nk
+        4$ 4N11 TNK_m_ _                                                     4$_4jF
+         $L`$PH$_PWP F 5/                                                  4_ _$_$ 
+         $L  . TF wP __LN                                                   1_ q4K 
+           _m 4KJ __NKF                                                    | T $$  
+      __  A$pwmN aME                                                       4_ aF/  
+      1RL  ` $NWmP_1       4   _        x   ___                            j$_`    
+        7\    f __f           M w WP  __fMmmNNmk              _____ __ _   4$/     
+          \   a4NF         M1   __w##P``~#     __            WMMMMNkK_ $L_ 4$\x    
+           $    __       $     dP __awwmw__x.  _$k       _ ww__..___  1 `$ j$y     
+      |    qL   4$K             #K 4 mwNk 1k_ MN$       yRNmP ______\u_ 3  $N      
+      |     $P  4k              $   Am#F    _$  y      4F wm  7C.Z$ \_1W   $       
+      1         `                  + x ww    J 4       4  mm  \C_JF  TL   j$       
+       |      |     y                     w#                        wP$   4 \      
+        \  \v_                                         |      w __ m      T $      
+       |     1       +                                                    $j       
+        $     $                                                          j$/       
+         \_                                 y                           d4/        
+          `+wwm        +                   |                           1 _         
+              $         4                  \______      _               _4         
+              1     4                 P     `TTTPMk_ __amw             a/          
+              |$y                                  NMNR               j            
+              |        |             /     _               x          $            
+              |  __    $         /      _   ____          m       4  4             
+                  $_   4           _uamK`_____     wmwmw _   _4     jF             
+           __ak   T$_   |   $   4      `$L```P##mwmwwmmw _aw@_$    y/              
+         _d1N4L     4L _     v   f        TNkm w    __ wm`   7   _/$               
+         4$__4k      $mk                 m________       J  _  _m`y                
+       _  $1_4L       4$___                TNNMNMMwmwmwP    $w#` 4                 
+      y1  1 _4k        I $_ ww                           #    # 7                  
+     y$L  1_4$          $_Nk_  Mk v             `    +  1  4_ _/                   
+    y1L__  $N$     m     $__$_e wmk_                     ___ _`                    
+  _4$__      _            T$N1j__\ _x            __       4M jL                    
+  4$_1N __ $ 4k              N$WNw-___L         wP      _|1  4$L                   
+ 4$NL __4N JL4L                1N$_$Nwkk____/_ __ ____uNPP  _$NNL                  
+ 1mN$ 4NL  _$W1                   TNmw__NP4Wwm4_$wWM#F $    4$NNNk___              
+M _ _______ N$_k           `       _   1Nmmh#+MP`1   m_     $N_NL_ Nkp_______ 
+```
+
+```
 
                                                     _ yd/AP  ______.JwwWWMMNNNNNKKCZZ   $$    7$$W 7T TTP7PF  $VVP` WJ1M71NNTRWVM7T`__.W/C5$WM+__ywM#PPT```    ___.w/A Z$$7TNTPTTTT`  TTZZII$Nwm~~jFFF__lL____  y                                          
                                             _yv/ ___y//PP______awwwmddZZ2P_  `TT19++wwZJ1NNLW N$1kK    1   __JM41F  WJTT 1 __lJfF___am/FFWV/___yV/A$$T   .  ___aam+fC$_4P+__JTP   _____pwmww+PKTCZ$ILN444kL_____4LL______                                  
