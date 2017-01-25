@@ -3,7 +3,7 @@ import string
 
 import numpy as np
 from keras import backend as K
-from keras.layers import Activation, AveragePooling2D, Convolution2D, Layer, MaxPooling2D
+from keras.layers import Activation, AveragePooling2D, BatchNormalization, Convolution2D, Layer, MaxPooling2D
 from keras.models import Model
 from keras.preprocessing.image import img_to_array
 from PIL import Image, ImageFont, ImageDraw
@@ -38,9 +38,11 @@ def make_model(
     # TODO: theano dim order
     features_W = charset_features.transpose((1, 2, 3, 0)).astype(np.float32)
     features_W = features_W[::-1, ::-1, :, :] / np.sqrt(np.sum(np.square(features_W), axis=(0, 1), keepdims=True))
+    x = layer.output
+    x = BatchNormalization(mode=2)(x)
     x = Convolution2D(
         num_chars, char_h, char_w, border_mode='valid',
-        weights=[features_W, np.zeros(num_chars)])(layer.output)
+        weights=[features_W, np.zeros(num_chars)])(x)
     if output_pool > 1:
         pool_class = dict(max=MaxPooling2D, avg=AveragePooling2D)[pool_type]
         x = pool_class((output_pool, output_pool))(x)
