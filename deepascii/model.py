@@ -34,11 +34,10 @@ def make_model(
         axis = 1
     vgg = vgg16.VGG16(input_shape=img_shape, include_top=False)
     layer = vgg.get_layer(layer_name)
-
+    x = layer.output
     # TODO: theano dim order
     features_W = charset_features.transpose((1, 2, 3, 0)).astype(np.float32)
     features_W = features_W[::-1, ::-1, :, :] / np.sqrt(np.sum(np.square(features_W), axis=(0, 1), keepdims=True))
-    x = layer.output
     x = BatchNormalization(mode=2)(x)
     x = Convolution2D(
         num_chars, char_h, char_w, border_mode='valid',

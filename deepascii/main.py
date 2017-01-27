@@ -20,7 +20,7 @@ def main(config):
     if config.charset:
         charset_chars = config.charset
     else:
-        charset_chars = string.letters + string.digits + """\/|-@.;:#+$_`~ """
+        charset_chars = """\/|-@.,;:#+$_`~ }{[]()*&%!?<>""" + string.letters + string.digits
     charset_imgs = generate_charset(
         charset_chars, config.font, config.font_size, invert=config.invert_color)
     print('Charset = ' + charset_chars)
